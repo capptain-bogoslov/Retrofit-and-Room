@@ -63,7 +63,7 @@ The design Patetrn used is Model-View-ViewModel(MVVM) and is implemented as belo
 					| Activity/Fragments|
 					| MainActivity,     |
 					| UsersFragment     |
-				  | TaskListFragments |
+				        | TaskListFragments |
 					---------------------
 					    	     |
 						         |
