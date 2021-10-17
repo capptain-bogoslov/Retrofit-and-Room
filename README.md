@@ -65,19 +65,19 @@ The design Patetrn used is Model-View-ViewModel(MVVM) and is implemented as belo
 					| UsersFragment     |
 				        | TaskListFragments |
 					---------------------
-					    	     |
-						         |
+					    	  |
+						  |
 					-----------------------
 					| TaskModel(LiveData) |	   					
 					|-ViewModel Class-    |	
 					-----------------------
-						         |
-						         |
+						   |
+						   |
 					-----------------------
-					|     TaskRepository  |
+					|   TaskRepository    |
 					-----------------------
-						         |
-						         |
+						   |
+						   |
 				      ------------------------------
 		      		|	                 				   |
 			      	|	                 				   |
