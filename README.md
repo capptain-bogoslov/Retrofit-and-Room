@@ -19,15 +19,15 @@ Use Cases
 -----------
 1. App has only one Activity with 3 Fragments that are created inside
 2. When App starts it displays UsersFragment with the list of Users from web-service. It has 1 RecyclerView and 1 FloatingActionButton
-		a. User can press in any RecyclerView item and will see the Tasks for the chosen user in TasksListFragments
-		b. User can press FloatingActionButton to Post something (it has no business logic but i chose to present the capability to use a POST method with Retrofit)
+a. User can press in any RecyclerView item and will see the Tasks for the chosen user in TasksListFragments
+b. User can press FloatingActionButton to Post something (it has no business logic but i chose to present the capability to use a POST method with Retrofit)
 3. in TasksListFragments are displayed the Tasks of the spesific user that is chosen in UsersFragment. It has 1 RecyclerView and 1 FloatingActionButton
-		a. in any RecyclerView item and can update or delete the Task in AddOrEditFragment
-		b. User can press FloatingActionButton to Add a new Task to this User in Database
+a. in any RecyclerView item and can update or delete the Task in AddOrEditFragment
+b. User can press FloatingActionButton to Add a new Task to this User in Database
 4. In AddOrEditFragment it has 1 EditText for title, 1 Editext for body (visible only in POST use case), 1 spinner for completed status (boolean), 1 button for Save, 1 button for Delete. According the type that get from safeArgs it has different functions
-		a. POST - User can Post something in web service. Only title, body and Post button are visible
-		b. ADD - User can Add a Task in the chosen user. Visible are title, completed, Save button layouts
-		c. UPDATE - User can update an existing Task - Only body not visible
+a. POST - User can Post something in web service. Only title, body and Post button are visible
+b. ADD - User can Add a Task in the chosen user. Visible are title, completed, Save button layouts
+c. UPDATE - User can update an existing Task - Only body not visible
 
 
 Packages - Classes - Description
