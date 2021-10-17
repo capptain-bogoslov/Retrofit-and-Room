@@ -19,7 +19,7 @@ Use Cases
 -----------
 1. App has only one Activity with 3 Fragments that are created inside
 2. When App starts it displays UsersFragment with the list of Users from web-service. It has 1 RecyclerView and 1 FloatingActionButton
-a. User can press in any RecyclerView item and will see the Tasks for the chosen user in TasksListFragments
+	a. User can press in any RecyclerView item and will see the Tasks for the chosen user in TasksListFragments
 b. User can press FloatingActionButton to Post something (it has no business logic but i chose to present the capability to use a POST method with Retrofit)
 3. in TasksListFragments are displayed the Tasks of the spesific user that is chosen in UsersFragment. It has 1 RecyclerView and 1 FloatingActionButton
 a. in any RecyclerView item and can update or delete the Task in AddOrEditFragment
